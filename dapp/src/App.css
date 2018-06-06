@@ -44,3 +44,12 @@ button {
   border: 0;
   border-radius: 3px;
 }
+
+button[disabled] {
+  background: #666;
+  opacity: 0.5;
+}
+
+.message {
+  color: #ff4f4e;
+}

@@ -9,7 +9,8 @@
     "test": "mocha tests/",
     "predeploy": "npm run test",
     "deploy": "node scripts/deploy.js",
-    "build": "next build",
+    "dev": "cd dapp && npm run start",
+    "build": "cd dapp && npm run build",
     "prestart": "npm run build",
     "start": "pm2 restart pm2.json"
   },
@@ -20,9 +21,7 @@
     "fs-extra": "^6.0.1",
     "solc": "^0.4.24",
     "truffle-hdwallet-provider": "0.0.3",
-    "web3": "1.0.0-beta.34"
-  },
-  "devDependencies": {
+    "web3": "1.0.0-beta.34",
     "ganache-cli": "6.1.0",
     "mocha": "^5.2.0",
     "pm2": "^2.10.4"
