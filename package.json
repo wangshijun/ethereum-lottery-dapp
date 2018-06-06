@@ -1,0 +1,30 @@
+{
+  "name": "ethereum-lottery-dapp",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node scripts/compile.js",
+    "pretest": "npm run compile",
+    "test": "mocha tests/",
+    "predeploy": "npm run test",
+    "deploy": "node scripts/deploy.js",
+    "build": "next build",
+    "prestart": "npm run build",
+    "start": "pm2 restart pm2.json"
+  },
+  "keywords": [],
+  "author": "wangshijun <wangshijun2010@gmail.com> (http://github.com/wangshijun)",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^6.0.1",
+    "solc": "^0.4.24",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "1.0.0-beta.34"
+  },
+  "devDependencies": {
+    "ganache-cli": "6.1.0",
+    "mocha": "^5.2.0",
+    "pm2": "^2.10.4"
+  }
+}

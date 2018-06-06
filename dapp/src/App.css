@@ -1,0 +1,46 @@
+.app {
+  text-align: center;
+  margin: 2em auto;
+  width: 640px;
+  border: 1px solid #222;
+  border-radius: 10px;
+}
+
+.app-header {
+  background-color: #222;
+  height: 72px;
+  color: white;
+  display: flex;
+  border-radius: 10px 10px 0 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-title {
+  font-size: 1.5em;
+}
+
+.app-body {
+  padding: 1em;
+}
+
+.app-body hr {
+  margin: 1em;
+  background: #222;
+}
+
+input {
+  line-height: 1.2em;
+  font-size: 0.9em;
+  margin: 0 8px;
+}
+
+button {
+  line-height: 1.2em;
+  font-size: 0.9em;
+  background: #ff4f4e;
+  color: white;
+  padding: 3px 8px;
+  border: 0;
+  border-radius: 3px;
+}
