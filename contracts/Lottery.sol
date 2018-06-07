@@ -20,11 +20,9 @@ contract Lottery {
     function pickWinner() public ownerOnly {
         require(players.length > 0);
 
-        // pick winner & transfer prize pool to winner
         uint index = random() % players.length;
         players[index].transfer(address(this).balance);
 
-        // reset state
         players = new address[](0);
     }
 
