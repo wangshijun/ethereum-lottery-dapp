@@ -8,6 +8,9 @@
 git clone https://github.com/wangshijun/ethereum-lottery-dapp.git
 cd ethereum-lottery-dapp
 yarn
+cd dapp
+yarn
+cd ../
 npm run dev
 ```
 
