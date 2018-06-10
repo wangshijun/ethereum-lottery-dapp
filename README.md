@@ -14,15 +14,21 @@ cd ../
 npm run dev
 ```
 
-然后打开 http://localhost:3000，即可预览。
+然后打开 [http://localhost:3000](http://localhost:3000)，即可预览。
 
 ## 如何部署？
 
 ```shell
+git pull origin master
+yarn
 npm start
 ```
 
-服务启动在 9000 端口上。线上试用地址：[http://47.104.23.85:9000/](http://47.104.23.85:9000/)，部署在 Rinkeby 测试网络上。
+服务启动在 9000 端口上。线上试用地址：[http://47.104.23.85:9000/](http://47.104.23.85:9000/)，注意，因为 DApp 部署在 Rinkeby 测试网络上，测试时 Metamask 也应该切换到 Rinkeby 测试网。
+
+## 线下分享 PPT
+
+猛击这里：[https://pan.baidu.com/s/14DmVnJwv9kvUTFzmsmE5NQ](https://pan.baidu.com/s/14DmVnJwv9kvUTFzmsmE5NQ)，GitHub 传大文件实在太慢了，就放到百度盘了。
 
 ## 学习更多？
 
