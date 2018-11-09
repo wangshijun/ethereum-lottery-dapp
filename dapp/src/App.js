@@ -115,6 +115,7 @@ class App extends Component {
 
           <hr />
           <p>合约管理员：{owner}</p>
+          <p>合约地址：{address}</p>
 
           <h3 className="message">{message}</h3>
         </div>
